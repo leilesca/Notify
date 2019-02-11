@@ -1,0 +1,55 @@
+body{
+    margin:0;
+}
+#main{
+    display:grid;
+    grid-template-areas: "banner banner banner"
+                         "icones icones icones"
+                         "video video video"
+                         "footer footer footer";
+    grid-template-rows: 40vh 35vh 45vh 35vh;
+}
+header{
+    grid-area: banner;
+}
+header img{
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+}
+#mao img{
+    height: 30vh;
+    width:25vw;
+    left:60vw;
+    top:10vh;
+    position: absolute;
+}
+
+header h1{
+    font-size: 130%;
+    font-family: "Pacifico";
+    color:white;
+    position: absolute;
+    top: 7vh;
+    left:10vw;
+}
+header p{
+    top:15vh;
+    color:white;
+    font-size: 65%;
+    position:absolute;
+    left:10vw;
+}
+#icones{
+    position: absolute;
+    display:flex;
+    top: 21vh;
+    left: 10vw;
+}
+#icones img{
+    margin:3px;
+    height: 5vh;
+    width: 5vw;
+    opacity: 0.8;
+}
+
