@@ -73,15 +73,34 @@ header p{
 }
 nav{ grid-area:icones;}
 
-nav #icone{
-    display:flex;
+nav .blocos{
+    display: flex;
     justify-content: space-around;
-    margin: 15px;
 }
 nav img{
-    height: 30px;
-    width: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
     background-color:rgba(15,200,45,1);
-    border:none;
+    border: 8px solid rgba(15,200,45,1);
     border-radius:50%;
+}
+nav h5{
+    margin:5px;
+
+}
+#bloco1 h5{
+    margin-left:20px;
+}
+#bloco2 h5{
+    margin-left: 35px;
+}
+#bloco3 h5{
+    margin-left: 5px;
+}
+nav p{
+    margin:3px;
+    font-size:9pt;
+    text-align: center;
 }
